@@ -1,0 +1,102 @@
+# -= Apside =-
+
+presentation/apside/css/theme/*.css
+presentation/slides/css/presentation.css
+trashcode
+
+presentation/yarn.lock
+presentation/package-lock.json
+
+# -= OS =-
+
+#MacOSX
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+#Linux
+.directory
+.Trash-*
+
+#Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# -= IDE =-
+
+#IDEA IntelliJ
+.idea
+*.iml
+
+#Netbeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+.nb-gradle/
+
+#Eclipse
+.project
+
+#Textmate
+*.tmproj
+*.tmproject
+tmtags
+
+#SublimeText*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+sftp-config.json
+
+#Notepad++
+*.bak
+
+# -= reveal.js =-
+log/*.log
+presentation/css/reveal.min.css
+presentation/js/reveal.min.js
+
+# -= node =-
+node_modules/
+tmp/**
+
+# -= SASS =-
+.sass-cache
+
+# -= Misc =-
+*.7z
+*.jar
+*.rar
+*.zip
+*.gz
+*.bzip
+*.bz2
+*.xz
+*.lzma
+*.cab
+*.iso
+*.tar
+*.dmg
+*.xpi
+*.gem
+*.egg
+*.deb
+*.rpm
+*.msi
+*.msm
+*.msp
+*.pxm
+
+# temp folder for apside refactoring
+presentation/temp

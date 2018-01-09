@@ -1,0 +1,29 @@
+// Apside TOP theme template for reveal.js.
+// ---------------------------------------------
+// Copyright (C) Apside TOP
+
+
+
+// Default mixins and settings -----------------
+@import "../template/amixins";
+@import "../template/asettings";
+// ---------------------------------------------
+
+//$logo_presentation: "";
+
+
+
+// Background generator
+@mixin bodyBackground() {
+	// définition du fond par défaut
+	@include bck-linear($presentation_logo);
+	//@include bck-linear("/css/images/logoHTML5Small.png", red, #f7fbfc, top);
+}
+
+.reveal section h1{
+	color: #1A364E !important;
+	font-variant: small-caps;
+	text-stroke: 1px black;
+	text-shadow: 3px 3px 12px #134674;
+
+}
