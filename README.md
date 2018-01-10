@@ -5,21 +5,21 @@ Then run `grunt serve`
 
 ---
 
-#Apside Camp Meetup
+#Apside Camp Meetup#
 
 ---
-##Plan
+##Plan##
 
-#Introduction
+#Introduction#
 
-#JUnit
+#JUnit#
 
-#Assertions
+#Assertions#
 
-#Tests d'integration
+#Tests d'integration#
 
-#Isolation
+#Isolation#
 
-#Bonnes pratiques
+#Bonnes pratiques#
 
-#Autres types
+#Autres types#
