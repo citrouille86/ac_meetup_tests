@@ -5,21 +5,22 @@ Then run `grunt serve`
 
 ---
 
-#Apside Camp Meetup#
+#Apside Camp Meetup
+https://github.com/seblaporte/TestDemo
 
 ---
-##Plan##
+##Plan
 
-#Introduction#
+#Introduction
 
-#JUnit#
+#JUnit
 
-#Assertions#
+#Assertions
 
-#Tests d'integration#
+#Tests d'integration
 
-#Isolation#
+#Isolation
 
-#Bonnes pratiques#
+#Bonnes pratiques
 
-#Autres types#
+#Autres types
