@@ -1,26 +1,24 @@
-# README #
+# Apside Camp Meetup
+https://github.com/seblaporte/TestDemo
+
+---
 
 Go to presentation directory and run `npm install`
 Then run `grunt serve`
 
 ---
+## Plan
 
-#Apside Camp Meetup
-https://github.com/seblaporte/TestDemo
+# Introduction
 
----
-##Plan
+# JUnit
 
-#Introduction
+# Assertions
 
-#JUnit
+# Tests d'integration
 
-#Assertions
+# Isolation
 
-#Tests d'integration
+# Bonnes pratiques
 
-#Isolation
-
-#Bonnes pratiques
-
-#Autres types
+# Autres types
