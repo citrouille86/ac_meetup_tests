@@ -100,3 +100,6 @@ tmp/**
 
 # temp folder for apside refactoring
 presentation/temp
+/.settings/
+/target/
+
