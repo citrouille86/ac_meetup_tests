@@ -8,6 +8,10 @@ Then run `grunt serve`
 
 ---
 
+https://twitter.com/nicolas_frankel/status/952578738205659139
+
+---
+
 ### Thèmes à évoquer
 * Les tests unitaires
 * Les tests d’intégration
