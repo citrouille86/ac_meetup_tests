@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	
+	<title>Tester, c'est douter !</title>
+	
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/perso.css">
+	<link async href="http://fonts.googleapis.com/css?family=Monoton" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" href="css/theme/league.css">
+	
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+	
+	<!-- Printing and PDF exports -->
+	<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+	</script>
+</head>
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-background-image="slides/img/background_fond.jpeg" 
+				data-markdown="slides/presentation.md"
+				data-separator="^\n---\n$" data-separator-vertical="^\n->-\n$" data-charset="UTF-8"></section>
+				
+			<section data-markdown="slides/intro/introduction.md" 
+				data-separator="^\n---\n$" data-separator-vertical="^\n->-\n$" data-charset="UTF-8"></section>
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				controls: true,
+				controlsTutorial: false,
+				controlsBackArrows: 'hidden', // "faded", "hidden" or "visible"
+				progress: true,
+				slideNumber: false,
+				history: true,
+				// Enable keyboard shortcuts for navigation
+				keyboard: true,
+				// Enable the slide overview mode
+				overview: true,
+				// Vertical centering of slides
+				center: true,
+				// Turns fragments on and off globally
+				fragments: true,
+				// Flags if the presentation is running in an embedded mode,
+				// i.e. contained within a limited portion of the screen
+				embedded: false,
+				// Enable slide navigation via mouse wheel
+				mouseWheel: false,
+				transition: 'convex', // none/fade/slide/convex/concave/zoom
+				transitionSpeed: 'default', // default/fast/slow
+				backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
+				// Number of slides away from the current that are visible
+				viewDistance: 2,
+				// The display mode that will be used to show slides
+				display: 'block',
+				markdown: {
+					smartypants: true
+				},
+
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+				]
+			});
+	</script>
+	
+	<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+	  <defs>
+	    <filter id="squiggly-0">
+	      <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="0"/>
+	      <feDisplacementMap id="displacement" in="SourceGraphic" in2="noise" scale="6" />
+	    </filter>
+	    <filter id="squiggly-1">
+	      <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="1"/>
+	      <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" />
+	    </filter>
+	    
+	    <filter id="squiggly-2">
+	      <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="2"/>
+	      <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" />
+	    </filter>
+	    <filter id="squiggly-3">
+	      <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="3"/>
+	      <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" />
+	    </filter>
+	    
+	    <filter id="squiggly-4">
+	      <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="4"/>
+	      <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" />
+	    </filter>
+	  </defs> 
+	</svg>
+
+</body>
+</html>

@@ -1,9 +1,0 @@
-{
-  "title":"La presentation",
-  "theme":"theme/apside",
-  "controls":true,
-  "progress":true,
-  "history":true,
-  "center":true,
-  "transition":"convex"
-}
