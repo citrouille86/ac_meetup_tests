@@ -19,17 +19,18 @@ Différentes catégories existent...
 
 ->-
 
-## Tests Unitaires
+## Test Unitaire
 
-* Testent une méthode d'une classe en isolation <!-- .element: class="fragment" -->
-* Doivent fonctionner sur un poste déconnecté du réseau <!-- .element: class="fragment" -->
+* Test une méthode d'une classe en isolation <!-- .element: class="fragment" -->
+* Doit fonctionner sur un poste déconnecté du réseau <!-- .element: class="fragment" -->
 
 ->-
 
-## Tests d'intégration
+## Test d'intégration
 
-* Testent un ensemble de composants <!-- .element: class="fragment" -->
+* Test un ensemble de méthodes <!-- .element: class="fragment" -->
 * Exemples <!-- .element: class="fragment" -->
+  * Plusieurs méthodes imbriquées
   * Web Services REST ou SOAP
   * Services métiers s'appuyant sur un accès BDD
 
@@ -42,6 +43,9 @@ Différentes catégories existent...
 * Quand faire les tests ? <!-- .element: class="fragment" -->
  * Tests après le développement
  * Test Driven Development (TDD)
+
+Notes:
+Retour d'expérience sur le TDD
 
 ->-
 

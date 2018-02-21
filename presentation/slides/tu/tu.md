@@ -2,15 +2,122 @@
 
 ->-
 
-## Les basiques
+## Test unitaire
 
-* Tester des méthodes isolées <!-- .element: class="fragment" -->
-* Tester des méthodes de classe feuille <!-- .element: class="fragment" -->
+* Test uniquement <!-- .element: class="fragment" -->
+  * des méthodes isolées  <!-- .element: class="fragment" -->
+  * des méthodes de classe feuille <!-- .element: class="fragment" -->
+* Doit être lisible <!-- .element: class="fragment" -->
+* Doit être facilement compréhensible <!-- .element: class="fragment" -->
+* Doit vérifier un seul cas fonctionnel <!-- .element: class="fragment" -->
+* Ne doit pas gérer les exceptions <!-- .element: class="fragment" -->
 
 Notes:
 1. Tester des méthodes simple ou utilitaire ou feuille
-2. Livecoding en mode TDD sur AddressUtilsTest
-* Blinder de snippets
+2. Livecoding en mode TDD sur AddressUtilsTest (snippets)
+
+->-
+
+## Construction d'un test unitaire
+
+->-
+
+### Lisibilité
+
+#### Anti-pattern
+
+<!-- .element: class="fragment" -->
+
+```java
+@Test
+public void givenTwoWidgetsWhenTheWidgetsAreQueriedThenTheCountIsTwo() {
+    WidgetQuery widgetQuery = new WidgetQuery();
+    assertEquals(2, widgetQuery.count());
+}
+```
+
+<!-- .element: class="fragment" -->
+
+#### Given / When / Then
+
+<!-- .element: class="fragment" -->
+
+```java
+@Test
+public void givenTwoWidgetsWhenTheWidgetsAreQueriedThenTheCountIsTwo() {
+	// Given
+    insertDefaultWidget();
+    insertDefaultWidget();
+    // When
+    WidgetQuery widgetQuery = new WidgetQuery();
+    // Then
+    assertEquals(2, widgetQuery.count());
+}
+```
+
+<!-- .element: class="fragment" -->
+
+->-
+
+### Simplicité
+
+Le test doit être simple !
+
+Si le test est complexe, comment savoir si c'est un problème d'implémentation du code ou du test ?
+
+->-
+
+### Un seul cas fonctionnel par test
+
+->-
+
+#### Anti-pattern
+
+<!-- .element: class="fragment" -->
+
+```java
+public class MyTestCase extends TestCase {
+  public void testSomething() {
+    // Set up local variables
+
+    // Manipulating local variables
+    // Call tested function with local variables
+    assertTrue(condition1);
+    
+    // Manipulating local variables
+    // Call tested function with local variables
+    assertTrue(condition2);
+  }
+}
+```
+
+<!-- .element: class="fragment" -->
+
+->-
+
+#### Test ... unitaire
+
+<!-- .element: class="fragment" -->
+
+```java
+public class MyTestCase extends TestCase {
+  // Local variables become instance variables
+
+  protected void setUp() {
+    // Set up for the test, manipulating instance variables
+  }
+  public void testCondition1() {
+    // Call tested function
+    assertTrue(condition1);
+  }
+  public void testCondition2() {
+    // Call tested function
+    assertTrue(condition2);
+  }
+}
+```
+
+<!-- .element: class="fragment" -->
 
 ->-
 
@@ -18,7 +125,7 @@ Notes:
 
 | Avantages | Inconvénients |
 |--|--|
-| On code juste ce qui est nécessaire | Le développeur *est* le testeur |
+| On code juste ce qui est nécessaire | Le développeur est le testeur |
 
 # A ENRICHIR
 
@@ -45,6 +152,7 @@ Notes:
 ->-
 
 # Définition
+
 ## Mocks aren't Stubs
 On parle de doublure en référence à celles du cinéma. Une doublure d'objet prendra la place d'une instance complètement implémentée, uniquement pour passer un test. Il existe quatre types de doublures :
 
