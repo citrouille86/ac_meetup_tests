@@ -1,4 +1,4 @@
-# Construction d'un test unitaire
+## Conception d'un test unitaire
 
 ->-
 
@@ -9,10 +9,10 @@
 <!-- .element: class="fragment" -->
 
 ```java
-@Test
 public void givenTwoWidgetsWhenTheWidgetsAreQueriedThenTheCountIsTwo() {
-    WidgetQuery widgetQuery = new WidgetQuery();
-    assertEquals(2, widgetQuery.count());
+    assertEquals(2, new WidgetQuery()
+        .insertDefaultWidget().insertDefaultWidget()
+        .count());
 }
 ```
 
@@ -23,15 +23,15 @@ public void givenTwoWidgetsWhenTheWidgetsAreQueriedThenTheCountIsTwo() {
 <!-- .element: class="fragment" -->
 
 ```java
-@Test
 public void givenTwoWidgetsWhenTheWidgetsAreQueriedThenTheCountIsTwo() {
-	  // Given
-    insertDefaultWidget();
-    insertDefaultWidget();
-    // When
+    // Given
     WidgetQuery widgetQuery = new WidgetQuery();
+    widgetQuery.addOneWidget();
+    widgetQuery.addOneWidget();
+    // When
+    int result = widgetQuery.count();
     // Then
-    assertEquals(2, widgetQuery.count());
+    assertEquals(2, result);
 }
 ```
 
@@ -56,7 +56,7 @@ Si le test est complexe, comment savoir si c'est un problème d'implémentation 
 <!-- .element: class="fragment" -->
 
 ```java
-public class MyTestCase extends TestCase {
+public class MyTestCase {
   public void testSomething() {
     // Set up local variables
 
@@ -80,7 +80,7 @@ public class MyTestCase extends TestCase {
 <!-- .element: class="fragment" -->
 
 ```java
-public class MyTestCase extends TestCase {
+public class MyTestCase {
   // Local variables become instance variables
 
   protected void setUp() {
@@ -99,9 +99,12 @@ public class MyTestCase extends TestCase {
 
 <!-- .element: class="fragment" -->
 
+Notes:
+* Méthode AddressServiceTest.anti_pattern
+
 ->-
 
-## Utiliser la méthode d'assertion adéquat
+## Utiliser la méthode d'assertion adéquate
 
 ->-
 
@@ -134,32 +137,32 @@ assertNotNull("Object must not be null", actual);
 ->-
 
 ```java
-@Test
 public void givenTwoWidgetsWhenTheWidgetsAreQueriedThenTheCountIsTwo() {
     // Given
-    insertDefaultWidget();
-    insertDefaultWidget();
-    // When
     WidgetQuery widgetQuery = new WidgetQuery();
+    widgetQuery.addOneWidget();
+    widgetQuery.addOneWidget();
+    // When
+    int result = widgetQuery.count();
     // Then
-    assertEquals(2, widgetQuery.count());
+    assertEquals(2, result);
 }
 ```
 
 <!-- .element: class="fragment" -->
 
 ```java
-@Test
 public void givenTwoWidgetsWhenTheWidgetsAreQueriedThenTheCountIsTwo() {
     // Mock
-    when(functionUsedInWidgetQuery()).thenReturn(true);
+    when(functionUsedInCountMethod()).thenReturn(true);
     // Given
-    insertDefaultWidget();
-    insertDefaultWidget();
-    // When
     WidgetQuery widgetQuery = new WidgetQuery();
+    widgetQuery.addOneWidget();
+    widgetQuery.addOneWidget();
+    // When
+    int result = widgetQuery.count();
     // Then
-    assertEquals(2, widgetQuery.count());
+    assertEquals(2, result);
 }
 ```
 

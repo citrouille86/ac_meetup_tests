@@ -1,10 +1,15 @@
 # Introduction
 
+Notes:
+* TU puis TI avec exemples de code
+* Une méthode de développement
+* REX
+
 ->-
 
 ## Catégories de Tests
 
-Différentes catégories existent...
+Différentes catégories existent ...
 
 <div>
 ... entre autres :
@@ -19,29 +24,14 @@ Différentes catégories existent...
 
 ->-
 
-## Test Unitaire
+## Pyramide de tests
 
-* Test une méthode d'une classe en isolation <!-- .element: class="fragment" -->
-* Doit fonctionner sur un poste déconnecté du réseau <!-- .element: class="fragment" -->
-
-->-
-
-## Test d'intégration
-
-* Test un ensemble de méthodes <!-- .element: class="fragment" -->
-* Exemples <!-- .element: class="fragment" -->
-  * Plusieurs méthodes imbriquées
-  * Web Services REST ou SOAP
-  * Services métiers s'appuyant sur un accès BDD
+![Pyramide tests](slides/img/mike_cohn_pyramid.png) <!-- .element: style="box-shadow:5px 5px 20px grey;" -->
 
 ->-
 
 ## Coût de maintenance
 
-![CoutBug](slides/img/applied-software-measurement.png)
+![CoutBug](slides/img/applied-software-measurement.png) <!-- .element: style="box-shadow:5px 5px 20px grey;" -->
 
-->-
 
-## Pyramide de tests
-
-![Pyramide tests](slides/img/mike_cohn_pyramid.png) <!-- .element: style="font-size: 10px; margin: 0px;" -->

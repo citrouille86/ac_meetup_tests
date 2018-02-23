@@ -1,9 +1,15 @@
 # Retour d'expérience
 
-## Les tests et le développement
+->-
 
-* Les tests font partie du travail du développeur <!-- .element: class="fragment" -->
-* Souvent une variable d'ajustement <!-- .element: class="fragment" -->
-* Quand faire les tests ? <!-- .element: class="fragment" -->
- * Tests après le développement
- * Test Driven Development (TDD)
+### Les tests font partie du travail du développeur
+
+->-
+
+### Souvent une variable d'ajustement
+
+->-
+
+### Quand faire les tests ?
+* Tests après le développement <!-- .element: class="fragment" -->
+* Test Driven Development (oui ... mais pas trop) <!-- .element: class="fragment" -->
