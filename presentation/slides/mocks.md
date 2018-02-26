@@ -4,7 +4,7 @@
 
 ### Une définition
 
-Simulation d'objet basée sur une interface sur laquelle on spécifie
+Simulation d'objet basée sur une interface sur laquelle on spécifie :
 
 * les appels de méthodes <!-- .element: class="fragment" -->
 * le nombre d'appel attendu <!-- .element: class="fragment" -->
