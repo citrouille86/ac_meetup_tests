@@ -53,8 +53,6 @@ Si le test est complexe, comment savoir si c'est un problème d'implémentation 
 
 ### Anti-pattern
 
-<!-- .element: class="fragment" -->
-
 ```java
 public class MyTestCase {
   public void testSomething() {
@@ -76,8 +74,6 @@ public class MyTestCase {
 ->-
 
 ### Test ... unitaire
-
-<!-- .element: class="fragment" -->
 
 ```java
 public class MyTestCase {
@@ -148,8 +144,6 @@ public void givenTwoWidgetsWhenTheWidgetsAreQueriedThenTheCountIsTwo() {
     assertEquals(2, result);
 }
 ```
-
-<!-- .element: class="fragment" -->
 
 ```java
 public void givenTwoWidgetsWhenTheWidgetsAreQueriedThenTheCountIsTwo() {

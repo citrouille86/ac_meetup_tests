@@ -26,12 +26,12 @@ Différentes catégories existent ...
 
 ## Pyramide de tests
 
-![Pyramide tests](slides/img/mike_cohn_pyramid.png) <!-- .element: style="box-shadow:5px 5px 20px grey;" -->
+![Pyramide tests](images/mike_cohn_pyramid.png) <!-- .element: style="box-shadow:5px 5px 20px grey;" -->
 
 ->-
 
 ## Coût de maintenance
 
-![CoutBug](slides/img/applied-software-measurement.png) <!-- .element: style="box-shadow:5px 5px 20px grey;" -->
+![CoutBug](images/applied-software-measurement.png) <!-- .element: style="box-shadow:5px 5px 20px grey;" -->
 
 
