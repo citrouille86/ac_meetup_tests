@@ -7,5 +7,6 @@
   * Services métiers s'appuyant sur un accès BDD<!-- .element: class="fragment" -->
 
 Notes:
+Par Séb
 * Classe de tests UserResourceTestIT pour méthodes imbriquées + service REST
 * Classe de tests AddressRepositoryTestIT pour la BDD

@@ -37,6 +37,9 @@ public void givenTwoWidgetsWhenTheWidgetsAreQueriedThenTheCountIsTwo() {
 
 <!-- .element: class="fragment" -->
 
+Notes:
+Par Séb
+
 ->-
 
 ## Simplicité
@@ -44,6 +47,9 @@ public void givenTwoWidgetsWhenTheWidgetsAreQueriedThenTheCountIsTwo() {
 Le test doit être simple !
 
 Si le test est complexe, comment savoir si c'est un problème d'implémentation du code ou du test ?
+
+Notes:
+Par Séb
 
 ->-
 
@@ -71,6 +77,9 @@ public class MyTestCase {
 
 <!-- .element: class="fragment" -->
 
+Notes:
+Par Nico
+
 ->-
 
 ### Test ... unitaire
@@ -96,6 +105,7 @@ public class MyTestCase {
 <!-- .element: class="fragment" -->
 
 Notes:
+Par Nico
 * Méthode AddressServiceTest.anti_pattern
 
 ->-
@@ -125,6 +135,9 @@ assertNotNull("Object must not be null", actual);
 ```
 
 <!-- .element: class="fragment" -->
+
+Notes:
+Par Séb
 
 ->-
 
@@ -163,4 +176,5 @@ public void givenTwoWidgetsWhenTheWidgetsAreQueriedThenTheCountIsTwo() {
 <!-- .element: class="fragment" -->
 
 Notes:
+Par Séb
 Exemple : AddressService.createAddressIfNotExists

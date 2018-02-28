@@ -1,6 +1,7 @@
 # Introduction
 
 Notes:
+Par Nico
 * TU puis TI avec exemples de code
 * Une méthode de développement
 * REX
@@ -33,5 +34,3 @@ Différentes catégories existent ...
 ## Coût de maintenance
 
 ![CoutBug](images/applied-software-measurement.png) <!-- .element: style="box-shadow:5px 5px 20px grey;" -->
-
-
