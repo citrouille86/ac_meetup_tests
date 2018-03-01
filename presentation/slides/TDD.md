@@ -32,4 +32,4 @@ Par Nico
 
 Notes:
 Par Nico<br>
-Livecoding en mode TDD sur AddressUtilsTest (A RODER et snippets)
+Livecoding en mode TDD sur AddressUtilsTest (A RODER)
