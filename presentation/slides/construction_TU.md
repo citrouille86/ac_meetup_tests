@@ -189,5 +189,5 @@ public void givenTwoWidgetsWhenTheWidgetsAreQueriedThenTheCountIsTwo() {
 <!-- .element: class="fragment" -->
 
 Notes:
-Par Séb<br>s
+Par Séb<br>
 Exemple : AddressService.createAddressIfNotExists
