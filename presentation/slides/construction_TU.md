@@ -1,5 +1,8 @@
 ## Conception d'un test unitaire
 
+Notes:
+Par Séb
+
 ->-
 
 ## Lisibilité
@@ -54,6 +57,9 @@ Par Séb
 ->-
 
 ## Un seul cas fonctionnel par test
+
+Notes:
+Par Nico
 
 ->-
 
@@ -112,6 +118,9 @@ Par Nico
 
 ## Utiliser la méthode d'assertion adéquate
 
+Notes:
+Par Séb
+
 ->-
 
 #### Anti-pattern
@@ -142,6 +151,9 @@ Par Séb
 ->-
 
 ## Isolation du code à tester
+
+Notes:
+Par Séb
 
 ->-
 
@@ -176,5 +188,5 @@ public void givenTwoWidgetsWhenTheWidgetsAreQueriedThenTheCountIsTwo() {
 <!-- .element: class="fragment" -->
 
 Notes:
-Par Séb
+Par Séb<br>s
 Exemple : AddressService.createAddressIfNotExists

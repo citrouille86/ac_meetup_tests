@@ -1,6 +1,9 @@
 ## Une méthode de développement
 ## parmi d'autres
 
+Notes:
+Par Nico
+
 ->-
 
 ## Test Driven Development
@@ -28,5 +31,5 @@
 </table>
 
 Notes:
-Par Nico
-Livecoding en mode TDD sur AddressUtilsTest (snippets)
+Par Nico<br>
+Livecoding en mode TDD sur AddressUtilsTest (A RODER)

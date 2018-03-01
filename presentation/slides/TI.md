@@ -8,5 +8,5 @@
 
 Notes:
 Par Séb
-* Classe de tests UserResourceTestIT pour méthodes imbriquées + service REST
-* Classe de tests AddressRepositoryTestIT pour la BDD
+* Méthodes imbriquées + service REST => Classe de tests UserResourceTestIT
+* BDD => Classe de tests AddressRepositoryTestIT
