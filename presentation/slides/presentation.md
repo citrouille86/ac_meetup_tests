@@ -14,6 +14,10 @@ Nicolas Chantreau<br>
 ![github](images/github.png)citrouille86 <!-- .element height="25px" width="25px" style="border: 0; background: None; box-shadow: None; margin: 0px;"-->
 </div> <!-- .element class="fragment" data-fragment-index="3" style="font-size: 55%; color: LightBlue; float: right; text-align: right; vertical-align: bottom;" -->
 
+Notes:
+* Presentation sur github Nico
+* Application support sur github Seb (presentation de l'appli)
+
 ->-
 
 # Disclaimer

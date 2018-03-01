@@ -112,7 +112,8 @@ public class MyTestCase {
 
 Notes:
 Par Nico
-* Méthode AddressServiceTest.anti_pattern
+* Contextualiser la partie de l'appli testée
+* Méthode AddressServiceTest.anti_pattern + pattern
 
 ->-
 

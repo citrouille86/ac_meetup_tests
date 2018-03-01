@@ -1,5 +1,8 @@
 # Retour d'expérience
 
+Notes:
+Par Nico
+
 ->-
 
 ### Les tests font partie du travail du développeur
@@ -17,7 +20,7 @@ Notes:
 Par Nico
 * Si en retard, ne jamais zappé les tests
 * Ne jamais les remettre à plus tard
-* Mieux vaut supprimer uen feature que des tests
+* Mieux vaut supprimer une feature que des tests
 
 ->-
 
@@ -26,4 +29,6 @@ Par Nico
 * Test Driven Development (oui ... mais pas trop) <!-- .element: class="fragment" -->
 
 Notes:
-Par Séb
+Par Séb<br>
+* Tester en parallèle
+* Alterner entre code/test
