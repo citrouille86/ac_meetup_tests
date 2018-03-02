@@ -35,6 +35,6 @@ Par Nico<br>
 Livecoding en mode TDD sur AddressUtilsTest (AddressUtils.getPropertiesWithBestScoreFromSearchResponse)
 Methode qui traite la reponse du WS (SearchResponse)
 UC1: #tu1 + #step1 from_unique_search_response
-UC2: #tu2 + #step2 highest_scored_properties_from_multiple_search_responses
+UC2: #tu2 + #step2 fail_from_null_search_response
 UC3: #tu3 + #step3 empty_properties_from_empty_search_response
-UC4: #tu4 + #step4 fail_from_null_search_response
+UC4: #tu4 + #step4 highest_scored_properties_from_multiple_search_responses
