@@ -42,6 +42,7 @@ public void givenTwoWidgetsWhenTheWidgetsAreQueriedThenTheCountIsTwo() {
 
 Notes:
 Par Séb
+- Exemple : AddressUtilsTest
 
 ->-
 

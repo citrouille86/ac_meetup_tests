@@ -19,9 +19,19 @@ Par Nico
 
 ->-
 
-### Mocks aren't Stubs
+### Un exemple de mock ...
 
 Notes:
 Par Séb
 * Test de la méthode AddressDataGouvService.searchAddress -> AddressDataGouvServiceTest
-* Les deux doublures les plus utilisées sont les stubs et les mocks. Ils sont souvent confondus, plus en raison de leurs utiilisations que de leurs implémentations. Un stub est écrit pour "boucher les trous" et éviter de bloquer le développement. Un mock, étant donné la nécessité de surveiller l'objet et d'en prendre le contrôle pour retourner une valeur sur un appel spécifique, l'implémentation est plus complexe. Classe anonyme, proxy et réflexivité sont les outils généralement utilisés par les frameworks de mocking. Ce n'est pas le sujet ici, mais lire le code source des frameworks demeure tout à fait instructif.
+
+->-
+
+### Mocks aren't Stubs
+
+Notes:
+Par Séb
+
+* Souvent confondus
+* Stub : peut être utilisé pour "boucher les trous" : explication doublure
+* Mock : plus complexe : permet d'obtenir un comportement plus fin

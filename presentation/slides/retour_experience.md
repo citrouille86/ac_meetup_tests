@@ -30,5 +30,7 @@ Par Nico
 
 Notes:
 Par Séb<br>
-* Tester en parallèle
-* Alterner entre code/test
+* TDD : pour les fonctions métier principales
+* Moins pour le reste du code : évite de dev à cours terme
+* Alterner entre code / test
+* Utiliser les tests pour valider le développement au fil de l'eau

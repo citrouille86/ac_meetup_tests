@@ -17,6 +17,10 @@ Nicolas Chantreau<br>
 Notes:
 * Presentation sur github Nico
 * Application support sur github Seb (presentation de l'appli)
+  - Pour illustrer la présentation
+  - Spring Boot
+  - API REST pour la gestion d'utilisateurs
+  - Appel à une API externe pour la vérification des adresses postales
 
 ->-
 
