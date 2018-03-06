@@ -30,6 +30,7 @@ Par Nico
 
 Notes:
 Par Séb<br>
+* TDD : lors des tests -> mauvais design de code
 * TDD : pour les fonctions métier principales
 * Moins pour le reste du code : évite de dev à cours terme
 * Alterner entre code / test

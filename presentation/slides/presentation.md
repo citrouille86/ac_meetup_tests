@@ -30,3 +30,5 @@ Notes:
 
 ![Affiche](images/affiche-tester-c-est-douter.jpg) <!-- .element height="48%" width="48%" style="border: 0; background: None; box-shadow: None" -->
 
+Notes:
+Parler

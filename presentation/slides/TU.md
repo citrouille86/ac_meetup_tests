@@ -16,4 +16,5 @@ _L'objectif est de tester uniquement le code de la méthode en question_ <!-- .e
 * Ne doit pas gérer les exceptions <!-- .element: class="fragment" -->
 
 Notes:
-* Méthodes isolées : si c'est pas l'cas => isoler
+* classes de test à part du code de production
+* Méthodes isolées : si c'est pas l'cas (dépendances) => isoler
