@@ -1,11 +1,5 @@
-# -= Apside =-
-
-presentation/apside/css/theme/*.css
-presentation/slides/css/presentation.css
-trashcode
-
-presentation/yarn.lock
-presentation/package-lock.json
+yarn.lock
+package-lock.json
 
 # -= OS =-
 
@@ -34,38 +28,15 @@ $RECYCLE.BIN/
 .idea
 *.iml
 
-#Netbeans
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-nbactions.xml
-nb-configuration.xml
-.nb-gradle/
-
 #Eclipse
 .project
-
-#Textmate
-*.tmproj
-*.tmproject
-tmtags
-
-#SublimeText*.tmlanguage.cache
-*.tmPreferences.cache
-*.stTheme.cache
-*.sublime-workspace
-*.sublime-project
-sftp-config.json
-
-#Notepad++
-*.bak
+/.settings/
+/target/
 
 # -= reveal.js =-
 log/*.log
-presentation/css/reveal.min.css
-presentation/js/reveal.min.js
+css/reveal.min.css
+js/reveal.min.js
 
 # -= node =-
 node_modules/
@@ -98,8 +69,6 @@ tmp/**
 *.msp
 *.pxm
 
-# temp folder for apside refactoring
-presentation/temp
-/.settings/
-/target/
+# temp folder
+temp
 
