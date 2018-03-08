@@ -27,7 +27,7 @@ Différentes catégories existent ...
 
 ## Pyramide de tests
 
-![Pyramide tests](images/mike_cohn_pyramid.png) <!-- .element: style="box-shadow:5px 5px 20px grey;" -->
+![Pyramide tests](img/mike_cohn_pyramid.png) <!-- .element: style="box-shadow:5px 5px 20px grey;" -->
 
 Notes:
 Séparation difficile entre TU et TI (JUnit) -> attention au design
@@ -36,4 +36,4 @@ Séparation difficile entre TU et TI (JUnit) -> attention au design
 
 ## Coût de maintenance
 
-![CoutBug](images/applied-software-measurement.png) <!-- .element: style="box-shadow:5px 5px 20px grey;" -->
+![CoutBug](img/applied-software-measurement.png) <!-- .element: style="box-shadow:5px 5px 20px grey;" -->
